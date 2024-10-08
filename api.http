@@ -1,0 +1,12 @@
+###Ingresar contraseña
+POST http://localhost:3000/encriptar/
+Content-Type: application/json
+
+{
+    "password": "unaContraseñaSegura123"
+}
+
+###Comparar contraseñas
+GET http://localhost:3000/comparar?password=unaContraseñaSegura123
+
+
